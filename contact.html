@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | V-Network Services</title>
+    <link rel="stylesheet" href="./commonStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+                <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+            </a>
+        </div>
+        <ul class="nav" id="nav">
+            <ul class="navLogo">
+                <a href="./index.html">
+                    <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+                </a>
+            </ul>
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+            <li class="nav-link"><a href="./aboutus.html">About Us</a></li>
+            <li class="nav-link"><a href="./contact.html">Contact</a></li>
+            <li class="sociallinkContainer">
+                <img class="sociallink" src="./img/fabook-icon-white.svg" alt="Facebook">
+                <img class="sociallink" src="./img/twitter-icon-white.svg" alt="Twitter">
+                <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="LinkedIn">
+                <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="WhatsApp">
+            </li>
+        </ul>
+        <div id="barContainer">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Contact form -->
+    <section class="gridSection contactSection">
+        <div class="contactformContainer">
+            <h1 class="sectionHeader">Get in touch</h1>
+            <form action="#" class="contactForm">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Full name" class="contactInput" required>
+                    <input type="email" name="email" id="email" placeholder="Email" class="contactInput" required>
+                </div>                               
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message about our token" class="contactInput" required></textarea>
+                <button type="submit" class="btn primaryBtn contactBtn">Submit</button>
+            </form>
+        </div>
+        <div class="sectionPic bouncepic contactPic" id="sectionPic">
+            <img src="./img/crypto-contact.png" alt="Contact V-Network">
+        </div>
+    </section>
+
+    <h1 class="addressHeader">Our Global Offices</h1>
+    <div class="address">
+        <div class="eachAddress">
+            <h1>India</h1>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: Blockchain Tower, Bangalore</p>
+            <p>Email: india@vnetworkservices.com</p>
+        </div>
+
+        <div class="eachAddress">
+            <h1>Singapore</h1>
+            <p>Phone: +65 12345678</p>
+            <p>Address: Crypto Hub, Marina Bay</p>
+            <p>Email: singapore@vnetworkservices.com</p>
+        </div>
+
+        <div class="eachAddress">
+            <h1>Dubai</h1>
+            <p>Phone: +971 45678901</p>
+            <p>Address: DIFC, Dubai</p>
+            <p>Email: dubai@vnetworkservices.com</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="joinSection">
+            <div class="joinDesc">
+                <h1 class="sectionHeader">Join Our Token Community</h1>
+                <p class="sectionPara">
+                    Be part of the V-Network revolution in blockchain technology.
+                </p>
+            </div>
+            <button class="btn primaryBtn">JOIN NOW</button>
+        </div>
+
+        <div class="footerlinksContainer">
+            <div class="footerAboutus">
+                <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+                <p class="darkPara">
+                    V-Network Services is building the future of decentralized finance with our innovative crypto token solutions.
+                </p>
+                <div class="footersociallinkContainer">
+                    <img class="sociallink" src="./img/fabook-icon-white.svg" alt="Facebook">
+                    <img class="sociallink" src="./img/twitter-icon-white.svg" alt="Twitter">
+                    <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="LinkedIn">
+                    <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="WhatsApp">
+                </div>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Explore</h1>
+                <a href="./aboutus.html" class="eachLink">About us</a>
+                <a href="#" class="eachLink">Tokenomics</a>
+                <a href="#" class="eachLink">Blog</a>
+                <a href="./contact.html" class="eachLink">Contact</a>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Resources</h1>
+                <a href="#" class="eachLink">White Paper</a>
+                <a href="#" class="eachLink">GitHub</a>
+                <a href="#" class="eachLink">Audit Report</a>
+            </div>
+        </div>
+
+        <div class="footerCopyright">
+             <p>&copy; 2025 V-Network Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>    
+</body>
+</html>
