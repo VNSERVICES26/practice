@@ -1,1 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Network Services | Crypto Token Platform</title>
+    <link rel="stylesheet" href="./commonStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
+    <!-- Header -->
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+            <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+            </a>
+        </div>
+        <ul class="nav" id="nav">
+            <ul class="navLogo">
+                <a href="./index.html">
+                     <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+               </a>
+            </ul>
+
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+            <li class="nav-link"><a href="./aboutus.html">About Us</a></li>
+            <li class="nav-link"><a href="./contact.html">Contact</a></li>
+            <li class="sociallinkContainer">
+                <img class="sociallink" src="./img/fabook-icon-white.svg" alt="Facebook">
+                <img class="sociallink" src="./img/twitter-icon-white.svg" alt="Twitter">
+                <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="LinkedIn">
+                <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="WhatsApp">
+            </li>
+        </ul>
+        <div id="barContainer">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero page -->
+    <section class="hero gridSection">
+        <div class="sectionDesc">
+            <h1 class="headline">
+                Revolutionizing Crypto with <span class="cryptoText">V-Network Token</span>
+            </h1>
+            <p class="sub-headline">
+                Experience the future of decentralized finance with our innovative blockchain solutions 
+                and token economy designed for mass adoption.
+            </p>
+            <div class="btnContainer">
+                <button class="btn btn1">Contact Now</button>
+                <button class="btn btn2">White Paper <i class="fa-solid fa-file"></i></button>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic" id="sectionPic">
+            <img src="./img/crypto-hero.png" alt="V-Network Token">
+        </div>
+    </section>
+
+    <!-- Token Carousel -->
+    <section>
+        <h1 class="sectionHeader">Our Token Ecosystem</h1>
+        <div class="carouselContainer">
+            <div class="eachCarousel eachCarouselBorder">
+                <img src="./img/v-network-token.png" alt="V-Network Token">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">VNT Token</h1>
+                    <p class="carouselPara">Native utility token powering the V-Network ecosystem</p>
+                    <div class="carouselPrice">
+                        <h3>$0.25</h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount">15% APY</h3>
+                    </div>
+                    <button class="btn carouselBtn">Buy & Stake</button>
+                </article>
+            </div>
+    
+            <div class="eachCarousel">
+                <img src="./img/governance-token.png" alt="Governance Token">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">VNG Token</h1>
+                    <p class="carouselPara">Governance token for protocol decisions</p>
+                    <div class="carouselPrice">
+                        <h3>$1.20</h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount">12% APY</h3>
+                    </div>
+                    <button class="btn carouselBtn">Buy & Vote</button>
+                </article>
+            </div>
+    
+            <div class="eachCarousel">
+                <img src="./img/stablecoin.png" alt="Stablecoin">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">VNS Stablecoin</h1>
+                    <p class="carouselPara">Algorithmic stablecoin pegged to USD</p>
+                    <div class="carouselPrice">
+                        <h3>$1.00</h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount">8% APY</h3>
+                    </div>
+                    <button class="btn carouselBtn">Mint & Earn</button>
+                </article>
+            </div>
+        </div>
+        <div class="carouselIndicator">
+            <div class="indicator activeIndicator" onclick="slideCarousel(0)"></div>
+            <div class="indicator" onclick="slideCarousel(1)"></div>
+            <div class="indicator" onclick="slideCarousel(2)"></div>
+        </div>
+    </section>
+
+    <!-- Blockchain Process -->
+    <section class="gridSection">
+        <div class="sectionDesc processessDesc">
+            <h1 class="sectionHeader">Blockchain Process</h1>
+            <p class="sectionPara">
+                Our proprietary blockchain technology ensures fast, secure and scalable transactions 
+                for our growing ecosystem.
+            </p>
+            <div class="eachProcesses">
+                <img src="./img/blockchain-icon-white.svg" alt="Blockchain">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Layer 1 Chain</h1>
+                    <p>
+                        High-performance blockchain with 5000+ TPS capacity and sub-second finality.
+                    </p>
+                </div>
+            </div>
+            <div class="eachProcesses">
+                <img src="./img/smart-contract-icon.svg" alt="Smart Contract">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Smart Contracts</h1>
+                    <p>
+                        EVM-compatible smart contracts with advanced security features.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic processesPic" id="sectionPic">
+            <img src="./img/blockchain-tech.png" alt="Blockchain Technology">
+        </div>
+    </section>
+
+    <!-- Markets -->
+    <section class="gridSection">
+        <div class="sectionDesc marketDesc">
+            <h1 class="sectionHeader">Token Utilities</h1>
+            <p class="sectionPara">
+                V-Network tokens power multiple use cases across our ecosystem
+            </p>
+            <div class="eachMarket">
+                <img src="./img/staking-icon.svg" alt="Staking">
+                <div>
+                    <h1 class="marketTitle">Staking</h1>
+                    <p class="darkPara">
+                        Earn up to 15% APY by staking your tokens and securing the network.
+                    </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/governance-icon.svg" alt="Governance">
+                <div>
+                    <h1 class="marketTitle">Governance</h1>
+                    <p class="darkPara">
+                        Vote on protocol upgrades and treasury allocations.
+                    </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/payments-icon.svg" alt="Payments">
+                <div>
+                    <h1 class="marketTitle">Payments</h1>
+                    <p class="darkPara">
+                        Use tokens to pay for services across our partner network.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sectionPic marketspicSection" id="sectionPic">
+           <h1 class="marketspicHeader">TOKEN UTILITIES</h1>
+            <div class="marketsPicContainer">
+                <div class="marketPic marketPic1">
+                    <img src="./img/staking-white-icon.svg" alt="">
+                    <article class="marketTitle">Staking</article>
+                </div>
+    
+                <div class="marketPic marketPic2">
+                    <img src="./img/governance-white-icon.svg" alt="">
+                    <article class="marketTitle">Governance</article>
+                </div>
+    
+                <div class="marketPic marketPic3">
+                    <img src="./img/payments-white-icon.svg" alt="">
+                    <article class="marketTitle">Payments</article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="gridSection">
+        <div class="sectionDesc dashboardDesc">
+            <h1 class="sectionHeader">Token Dashboard</h1>
+            <p class="sectionPara">
+                Track your portfolio, stake tokens, and participate in governance 
+                through our intuitive dashboard.
+            </p>
+            <button class="btn primaryBtn">Explore Dashboard</button>
+        </div>
+
+        <div class="sectionPic dashboardPic">
+            <img src="./img/token-dashboard.png" alt="Token Dashboard">
+        </div>
+    </section>
+
+    <!-- Token Features -->
+    <div class="fundSection">
+        <div class="sectionDesc">
+            <h1 class="sectionHeader">Token Features</h1>
+            <p class="sectionPara">
+                Why V-Network tokens stand out in the crowded crypto space.
+            </p>
+            <div class="fundsContainer">
+                <div class="fund">
+                    <img src="./img/security-icon-white.svg" alt="Security">
+                    <h1 class="fundType">Secure</h1>
+                    <p class="darkPara">
+                        Audited smart contracts with multi-sig treasury.
+                    </p>
+                </div>
+
+                <div class="fund">
+                    <img src="./img/scalable-icon-white.svg" alt="Scalable">
+                    <h1 class="fundType">Scalable</h1>
+                    <p class="darkPara">
+                        Built for mass adoption with low gas fees.
+                    </p>
+                </div>
+
+                <div class="fund">
+                    <img src="./img/decentralized-icon.svg" alt="Decentralized">
+                    <h1 class="fundType">Decentralized</h1>
+                    <p class="darkPara">
+                        Community-owned and operated network.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="gridSection">
+        <div class="sectionDesc newsletterDesc">
+            <h1 class="sectionHeader">Token Updates</h1>
+            <p class="sectionPara">
+                Subscribe to get the latest news about our token listings, partnerships and ecosystem growth.
+            </p>
+            <form action="#" class="newsletter">
+                <input type="email" name="email" id="newsletter" placeholder="Enter your email" required>
+                <button type="submit" class="btn primaryBtn">Subscribe</button>
+            </form>
+        </div>
+        <div class="sectionPic bouncepic newsletterPic">
+            <img src="./img/crypto-newsletter.png" alt="Crypto Newsletter">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="joinSection">
+            <div class="joinDesc">
+                <h1 class="sectionHeader">Join Our Token Community</h1>
+                <p class="sectionPara">
+                    Be part of the V-Network revolution in blockchain technology.
+                </p>
+            </div>
+            <button class="btn primaryBtn">JOIN NOW</button>
+        </div>
+
+        <div class="footerlinksContainer">
+            <div class="footerAboutus">
+                <img src="./img/v-network-logo-white.png" alt="V-Network Logo">
+                <p class="darkPara">
+                    V-Network Services is building the future of decentralized finance with our innovative crypto token solutions.
+                </p>
+                <div class="footersociallinkContainer">
+                    <img class="sociallink" src="./img/fabook-icon-white.svg" alt="Facebook">
+                    <img class="sociallink" src="./img/twitter-icon-white.svg" alt="Twitter">
+                    <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="LinkedIn">
+                    <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="WhatsApp">
+                </div>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Explore</h1>
+                <a href="./aboutus.html" class="eachLink">About us</a>
+                <a href="#" class="eachLink">Tokenomics</a>
+                <a href="#" class="eachLink">Blog</a>
+                <a href="./contact.html" class="eachLink">Contact</a>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Resources</h1>
+                <a href="#" class="eachLink">White Paper</a>
+                <a href="#" class="eachLink">GitHub</a>
+                <a href="#" class="eachLink">Audit Report</a>
+            </div>
+        </div>
+
+        <div class="footerCopyright">
+             <p>&copy; 2025 V-Network Services. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
